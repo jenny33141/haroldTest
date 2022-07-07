@@ -1,0 +1,289 @@
+
+*{
+    background-color: rgb(182, 148, 56, 0.8);
+    box-sizing: border-box;
+
+}
+
+#nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:black;
+    border-style:double;
+    border-color:brown;
+    border-width:5px;
+
+    height100px:
+}
+
+#nav a{
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    font-size:20px
+}
+
+#nav a:hover{
+    color:blue    
+}
+
+body{
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    border-style:double;
+    border-color:brown;
+    color: rgb(59, 9, 9);
+    font-size: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(blackground3.jpg);
+}
+
+h2{
+    border-style:double;
+    border-color:brown;
+    color: rgb(139, 136, 136);
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(blackground1.jpeg);
+}
+
+h3{
+    border-style:solid;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h4{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+.intro{
+    font-size:1.3em;
+}
+
+
+#strawhats{
+    background-image: url(devilfruits.jpg);
+    background-repeat: no-repeat;
+    border-style:solid;
+    width:45%;
+    height:25%;
+}
+
+#video{
+    border-style:double;
+    border-color:rgb(82, 10, 10);
+    border-width:5px;
+    width:600px;
+}
+
+#vid{
+    border-style:double;
+    border-color:rgb(82, 10, 10);
+    border-width:5px;
+    width:290px; 
+    height:420px;
+
+}
+
+#fruits{
+    background-repeat: no-repeat;
+    border-style:solid;
+    width:35%;
+    height:25%;
+}
+
+#roger{
+    border-style:solid;
+    width:300px;
+    height:400px;
+
+}
+#nika{
+    float:inline-start;
+    border-style:solid;
+    width:250px;
+    height:300px;
+}
+
+#trio{
+    background-image: url(blackground3.jpg);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style:solid;
+    width:600px;
+    height:250px;
+    
+} 
+
+
+/* styling crew */
+
+.crew{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+       
+}
+
+.crewmate{
+    border-style: double;
+    border-style:double;
+    border-color:rgb(82, 10, 10);
+    border-width:5px;
+    width:600px;
+
+}
+
+.luffy{
+    border-style: double;
+}
+
+/* crewmate image styling */
+#crewimg{
+    display:flex;
+    border-style:solid;
+    width:250px;
+    height:300px;
+
+}
+/* styling crewlist list */
+#stats{
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+}
+
+/* styling Devil Fruits */
+.paramecia{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+
+}
+
+.pfruit{
+    border-style: double;
+
+    border-style:double;
+    border-color:rgb(82, 10, 10);
+    border-width:5px;
+    width:400px;
+
+}
+
+.zoan{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+
+.zfruit{
+border-style:double;
+border-color:rgb(82, 10, 10);
+border-width:5px;
+width:400px;
+
+}
+
+.logia{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+
+.lfruit{
+
+border-style:double;
+border-color:rgb(82, 10, 10);
+border-width:5px;
+width: 400px;;
+
+}
+
+/*styling fruit image*/
+#fruitimg{
+    display:flex;
+    border-style:solid;
+    width:180px;
+    height:200px;
+
+}
+
+/*styling fruit info*/
+#finfo{
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+    border-style:solid;
+    border-width:1px;
+    justify-content:flex-start;
+}
+
+#button1{
+    background-color:brown;
+    border:1px solid;
+    border-radius: 4px;
+    box-sizing:border-box;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+/*styling crew bounties*/
+.crewb{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-evenly;
+        border-style:solid;
+        
+        
+
+}
+
+.bcrew{
+
+    border-style:double;
+    border-color:rgb(82, 10, 10);
+    border-width:5px;
+    width:230px;
+
+}
+
+.emperorb{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+
+.bemperor{
+
+border-style:double;
+border-color:rgb(82, 10, 10);
+border-width:5px;
+width:300px;
+height:350px;
+
+}
+
+
+
+
+
